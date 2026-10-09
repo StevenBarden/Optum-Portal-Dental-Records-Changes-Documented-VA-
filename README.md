@@ -4,19 +4,7 @@ Steven Barden — Optum VA Community Care Network, Region 3, contract 36C79119D0
 
 Three exports of one Optum VA CCN accountand do not agree with each other.
 
-Complaints were submitted to the VA Office of Inspector General and the FBI on 15 December 2025; no response has been received. No qui tam complaint and no lawsuit.
-
----
-
-## Publication log
-
-| Batch | Published | What went up |
-|---|---|---|
-| **1** | **16 September 2026** | The three source exports · both Optum letters to Senator Moody · the compiled exhibit · the claim index · the scripts · SHA-256 checksums for every file |
-
-Each batch is a dated row here and a timestamped commit in this repository's public history. **Nothing is ever removed.** Later batches add; where later material corrects something earlier, the correction is added beside it and dated.
-
-Every file is check summed and the commit history is public, so any change to what is published here — **including by me** — is visible to anyone who checks.
+Complaints were submitted to the VA Office of Inspector General and the FBI on 15 December 2025; no response has been received.
 
 ---
 
@@ -98,8 +86,6 @@ The alveoloplasty was performed eighteen months later, on 29 March 2024, by a di
 Both claims reconcile exactly to their billed totals.
 
 The four D7310 line items are present in the first export, absent from the second, and present again in the third.
-
-**The same identifier change on a hospital bill.** Tampa General Hospital, $19,648.23, date of service 6 June 2021. Identifier ends 0000 in the first export and 0001 in the second. Date of service, submitted date, amount and provider are unchanged. Different provider, different service line, no connection to the dental matter.
 
 **An entire hospital admission removed.** The September 2021 admission — ten claims across three days including $40,762.62 to Tampa General Hospital — appears in the first export and nowhere in the second. The date 09/06/2021 occurs five times in the first file and zero times in the second. The November 2021 admission is likewise absent.
 
